@@ -1,0 +1,46 @@
+<%- include("header") -%>
+<%- include("sidebar") -%>
+
+<div class="section-5-container section-container" id="section-5">
+  <div class="container">
+      <div class="row">
+          <div class="col section-6 section-description wow fadeIn">
+              <h2><strong>Kontakt</strong></h2>
+              <div class="divider-1 wow fadeInUp"><span></span></div>
+              <p>Wyślij do Nas wiadomość</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 section-6-box wow fadeInUp">
+            <h3>Przez e-mail</h3>
+              <div class="section-6-form">
+                <form role="form" action="contact.js" method="post">
+                  <div class="form-group">
+                    <label class="sr-only" for="contact-email">Email</label>
+                      <input type="text" name="email" placeholder="Wprowadź swój e-mail" class="contact-email form-control" id="contact-email">
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="contact-subject">Temat</label>
+                      <input type="text" name="subject" placeholder="Temat" class="contact-subject form-control" id="contact-subject">
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="contact-message">Wiadomość</label>
+                      <textarea name="message" placeholder="Treść wiadomości..." class="contact-message form-control" id="contact-message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-customized"><i class="fas fa-paper-plane"></i> Wyślij wiadomość</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-1 section-6-box wow fadeInDown">
+              <h3>Follow us</h3>
+              <div class="section-6-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+      </div>
+  </div>
+</div>
+
+<%- include("footer") -%>
